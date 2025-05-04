@@ -1,0 +1,2108 @@
+: 1744040437:0;l
+: 1744040440:0;help
+: 1744040445:0;mksh
+: 1744040618:0;exit
+: 1744040622:0;mksh
+: 1744040623:0;ls
+: 1744040624:0;mksh
+: 1744040663:0;cd zsh
+: 1744040665:0;cd .config
+: 1744040665:0;ls
+: 1744040666:0;cd zsh
+: 1744040667:0;ls
+: 1744040669:0;nvim profile
+: 1744040673:0;ls
+: 1744040690:0;cd .config/zsh
+: 1744040690:0;ls
+: 1744040692:0;cd .config
+: 1744040693:0;cd zsh
+: 1744040694:0;ls
+: 1744040696:0;nvim history
+: 1744040708:0;ls
+: 1744040711:0;help
+: 1744040713:0;nvim history
+: 1744040716:0;ls
+: 1744040719:0;nvim plugins
+: 1744040724:0;nvim aliasrc
+: 1744040774:0;cd
+: 1744040776:0;rm -rf .profile
+: 1744040777:0;ls
+: 1744040777:0;l
+: 1744040787:0;ls -a | grep wc
+: 1744040789:0;ls -a | grep wc-l
+: 1744040791:0;ls -a | grep 
+: 1744040794:0;ls -a | grep wc
+: 1744040802:0;ls -a | grep w
+: 1744040806:0;ls -a | grep wc
+: 1744040810:0;ls -a | grep (wc)
+: 1744051818:0;sudo pacman -Rcns mksh
+: 1744051823:0;sudo pacman -Rcns ed
+: 1744051833:0;patch
+: 1744051836:0;clear
+: 1744051866:0;ncmpcpp
+: 1744051871:0;cd .config
+: 1744051897:0;cd .config/
+: 1744051899:0;cd dwmblocks
+: 1744051899:0;ls
+: 1744051901:0;v config.h
+: 1744051906:0;sb-packages
+: 1744051909:0;./sb-packages
+: 1744051944:0;sudo nvim /etc/environment
+: 1744051978:0;cd .config
+: 1744051979:0;ls
+: 1744051980:0;cd zsh
+: 1744052079:0;cd nvim
+: 1744052079:0;ls
+: 1744052081:0;v init.vim
+: 1744052119:0;nvim
+: 1744052128:0;nvim init.vim
+: 1744052146:0;nvim
+: 1744052205:0;ls
+: 1744052207:0;nvim init.vim
+: 1744052271:0;nvim
+: 1744052283:0;ls
+: 1744052285:0;nvim init.vim
+: 1744052332:0;sudo pacman -S pipewire
+: 1744052339:0;pamixer
+: 1744052352:0;cd .config
+: 1744052352:0;ls
+: 1744052357:0;cd dwm
+: 1744052357:0;ls
+: 1744052360:0;v config.h
+: 1744052398:0;pipewire
+: 1744052402:0;rtkit
+: 1744052410:0;sudo pacman -S RTkit
+: 1744052444:0;pactl
+: 1744052507:0;pactl set-sink-volume @DEFAULT_SINK@ +3%
+: 1744052545:0;sv status pipewire\
+
+: 1744052556:0;sv start pipewire\
+
+: 1744052561:0;cd .config/zsh
+: 1744052561:0;ls
+: 1744052565:0;v aliasrc
+: 1744052570:0;cd ..
+: 1744052580:0;source ~/.config/zsh/.zshrc
+: 1744052590:0;sv status pipewire\
+
+: 1744052596:0;sv
+: 1744052604:0;sv status pipewire\
+
+: 1744052609:0;sv start pipewire\
+
+: 1744052724:0;pipewire
+: 1744052738:0;pactl set-sink-volume @DEFAULT_SINK@ +3%
+: 1744052756:0;sudo pacman -S rtkit\
+
+: 1744052765:0;pactl set-sink-volume @DEFAULT_SINK@ +3%
+: 1744052768:0;pipewire
+: 1744052775:0;pactl set-sink-volume @DEFAULT_SINK@ +3%
+: 1744052784:0;sudo pacman -S pipewire-pulse
+: 1744052789:0;pactl set-sink-volume @DEFAULT_SINK@ +3%
+: 1744052795:0;sudo pacman -Rcns pipewire-pulse
+: 1744052816:0;pamixer
+: 1744052906:0;sudo pacman -Rcns pipewire
+: 1744052926:0;sudo pacman -S pulseaudio
+: 1744052931:0;pipewire
+: 1744052938:0;pulseaudio
+: 1744052953:0;cd .config/zs
+: 1744052955:0;cd .config/zsh
+: 1744052956:0;ls
+: 1744052957:0;v profile
+: 1744052981:0;pactl
+: 1744052982:0;pactl info
+: 1744052986:0;pulseaudio --start\
+
+: 1744052994:0;mkdir -p ~/.config/pulse\
+
+: 1744052998:0;touch ~/.config/pulse/cookie\
+
+: 1744053005:0;pactl set-sink-volume @DEFAULT_SINK@ +5%\
+
+: 1744053026:0;pactl set-sink-volume @DEFAULT_SINK@ +5%
+: 1744053026:0;pactl set-sink-volume @DEFAULT_SINK@ +5%\
+
+: 1744053030:0;clear
+: 1744053048:0;pamixer
+: 1744053066:0;pulseaudio
+: 1744053075:0;sudo pacman -S pamixer
+: 1744053099:0;yay -S pamixer
+: 1744053126:0;yay -S pamixer-git
+: 1744053284:0;sudo pacman -S cmake
+: 1744053297:0;yay -S pamixer-git
+: 1744053311:0;sudo pacman -Rcns cmake
+: 1744053322:0;sudo pacman -Rcns 
+: 1744053331:0;wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle; kill -44 $(pidof dwmblocks)
+: 1744053334:0;wpctl
+: 1744053336:0;sudo pacman -S wpctl
+: 1744053343:0;yay -S wpctl
+: 1744053376:0;pacman -F wpctl\
+
+: 1744053457:0;librewolf
+: 1744053462:0;sudo pacman -S librewolf
+: 1744053469:0;sudo pacman -Syy
+: 1744053473:0;sudo pacman -Syu
+: 1744053479:0;.librewolf
+: 1744053481:0;ls
+: 1744053482:0;cd ..
+: 1744053487:0;sudo pacman -S librewolf
+: 1744053490:0;yay -S librewolf
+: 1744053555:0;pulseaudio
+: 1744053711:0;sudo pacman -Rcns librewolf
+: 1744053715:0;cd .cache
+: 1744053715:0;ls
+: 1744053729:0;terminus
+: 1744053730:0;ls
+: 1744053735:0;sudo pacman -S hack
+: 1744053749:0;sudo pacman -S librewol
+: 1744053751:0;sudo pacman -S librewolf
+: 1744053755:0;yay -S librewolf
+: 1744053799:0;yay -S librewolf-bin
+: 1744053910:0;sudo pacman -S ttf-hack-nerd
+: 1744053919:0;cd .config
+: 1744053920:0;cd st
+: 1744053921:0;ls
+: 1744053923:0;nvim config.h
+: 1744053938:0;sudo nvim config.h
+: 1744053985:0;startx
+: 1744053989:0;cd .config
+: 1744053989:0;ls
+: 1744053990:0;cd st
+: 1744053990:0;ls
+: 1744053991:0;v config.h
+: 1744054006:0;sudo make install
+: 1744054014:0;reboot
+: 1744054054:0;ls
+: 1744054055:0;clear
+: 1744054056:0;startx
+: 1744054058:0;ls
+: 1744054075:0;cd .config
+: 1744054076:0;ls
+: 1744054078:0;cd st
+: 1744054078:0;ls
+: 1744054079:0;v config.h
+: 1744054085:0;sudo make install
+: 1744054096:0;pulseaudio
+: 1744054099:0;pipewire
+: 1744054146:0;sudo pacman -Sc
+: 1744054155:0;sudo pacman -Scc
+: 1744054163:0;sudo pacman -Qtdq
+: 1744054172:0;neofetch
+: 1744054180:0;cd .cache
+: 1744054181:0;ls
+: 1744054185:0;rm -rf librewolf
+: 1744054187:0;clear
+: 1744054243:0;yay -Rcns librewolf-bin
+: 1744054252:0;sudo pacman -R librewolf-bin
+: 1744054261:0;yay -S librewolf
+: 1744054354:0;cd .config/dwm
+: 1744054354:0;ls
+: 1744054370:0;ls -a
+: 1744054375:0;cd .config
+: 1744054375:0;ls
+: 1744054378:0;cd pulse
+: 1744054378:0;ls
+: 1744054556:0;neofetch
+: 1744054638:0;ls
+: 1744054640:0;cd .config
+: 1744054641:0;ls
+: 1744054666:0;pulseaudio
+: 1744054676:0;pamixer
+: 1744054678:0;pulsemixer
+: 1744054683:0;pactl
+: 1744054836:0;df -h
+: 1744055030:0;sudo pacman -Syy
+: 1744055038:0;sudo pacman -S librewolf
+: 1744055049:0;librewolf
+: 1744055085:0;yay -S librewolf-bin
+: 1744055121:0;cd .config
+: 1744055121:0;ls
+: 1744055123:0;cd ..
+: 1744055123:0;ls
+: 1744055128:0;mv .librewolf ~/.config
+: 1744055130:0;librewolf
+: 1744055252:0;dbus
+: 1744055255:0;gdbus
+: 1744055450:0;rm -rf .librewolf
+: 1744055451:0;clear
+: 1744055452:0;ls
+: 1744055472:0;mv .config/.librewolf ~/
+: 1744055485:0;rm -rf .librewolf
+: 1744055486:0;mv .config/.librewolf ~/
+: 1744055663:0;librewolf
+: 1744055698:0;cd .config/dwm
+: 1744055698:0;ls
+: 1744055699:0;v config.h
+: 1744055728:0;pulseaudio
+: 1744055759:0;chromium
+: 1744055761:0;clear
+: 1744055762:0;startx
+: 1744055775:0;pkill pulseaudio
+: 1744055792:0;pkill watchdog
+: 1744055794:0;pkill watchdogd
+: 1744055800:0;sv
+: 1744055803:0;svlogd
+: 1744055805:0;svlogd q
+: 1744055811:0;reboot
+: 1744055815:0;sudo reboot
+: 1744055867:0;startx
+: 1744055886:0;sudo pacman -S librewolf
+: 1744055913:0;cd .local/bin
+: 1744055913:0;ls
+: 1744055922:0;cd /usr
+: 1744055922:0;ls
+: 1744055923:0;cd bin
+: 1744055924:0;ls
+: 1744055927:0;cd librewolf
+: 1744055930:0;./librewolf
+: 1744055943:0;./firefox
+: 1744055949:0;./htop
+: 1744055994:0;git clone https://aur.archlinux.org/librewolf.git
+: 1744055997:0;cd librewolf
+: 1744056001:0;makepkg -si
+: 1744056032:0;yay -Rcns librewolf-bin
+: 1744056088:0;makepkg -si
+: 1744056114:0;sudo pacman -Rcns pulseaudio
+: 1744056968:0;sudo pacman -S librewolf-bin
+: 1744056978:0;yay -S librewolf-bin
+: 1744057010:0;sudo pacman -Rcns librewolf
+: 1744057023:0;cd .config/dwm
+: 1744057025:0;sudo make install
+: 1744057032:0;pulseaudio
+: 1744057035:0;pipewire
+: 1744057041:0;sudo pacman -Rcns pulseaudio pipewire
+: 1744057047:0;sudo pacman -S pipewire
+: 1744057051:0;clear
+: 1744057052:0;pipewire
+: 1744057060:0;librewolf
+: 1744057079:0;sudo pacman -S librewolf-bin
+: 1744057084:0;yay -S librewolf-bin
+: 1744057149:0;cd .config
+: 1744057150:0;ls
+: 1744057150:0;cd st
+: 1744057151:0;ls
+: 1744057160:0;cd ..
+: 1744057165:0;cd dwm
+: 1744057165:0;ls
+: 1744057167:0;v config.h
+: 1744057169:0;librewolf
+: 1744057349:0;yay -S firefox-bin
+: 1744057395:0;cd .config
+: 1744057395:0;cd dwm
+: 1744057397:0;ls
+: 1744057398:0;v config.h
+: 1744057401:0;sudo pacman -Rcns firefox
+: 1744057407:0;sudo pacman -Rcns firefox-bin
+: 1744057458:0;pkill picom
+: 1744057581:0;picom
+: 1744057599:0;librewolf-bin --no-decorations\
+
+: 1744057602:0;librewolf --no-decorations\
+
+: 1744057618:0;gtk
+: 1744057643:0;sudo pacman -S lxappearance
+: 1744057785:0;sudo pacman -S pipewire pipewire-pulse
+: 1744057802:0;sudo pacman -S xorg-xwayland
+: 1744057819:0;cd .config
+: 1744057820:0;ls
+: 1744057820:0;cd gtk
+: 1744057821:0;ls
+: 1744057824:0;cd gtk-3.0
+: 1744057824:0;ls
+: 1744057825:0;l
+: 1744057826:0;cd ..
+: 1744057828:0;ls
+: 1744057892:0;sudo pacman -S gtk3
+: 1744057899:0;sudo pacman -S gtk2
+: 1744057907:0;sudo pacman -Rcns gtk2
+: 1744057932:0;sudo pacman -Rcns pipewire
+: 1744057958:0;sudo pacman -S pulseaudio
+: 1744057969:0;pulseaudio
+: 1744057974:0;startx
+: 1744057993:0;ls
+: 1744057999:0;sudo pacman -Rcns pipewire pulseaudio
+: 1744058006:0;sudo pacman -Rcns pulseaudio
+: 1744058017:0;firefox
+: 1744058018:0;librewolf
+: 1744058026:0;sudo pacman -Rcns librewolf-bin
+: 1744058032:0;clear
+: 1744058037:0;yay -S librewolf-bin
+: 1744058100:0;sudo pacman -Rcns librewolf-bin
+: 1744058106:0;yay -S librewolf-bin
+: 1744058134:0;cd .local
+: 1744058134:0;ls
+: 1744058136:0;cd share
+: 1744058137:0;ls
+: 1744058138:0;cd ..
+: 1744058138:0;ls
+: 1744058141:0;cd state
+: 1744058141:0;ls
+: 1744058142:0;cd nvim
+: 1744058143:0;ls
+: 1744058144:0;cd ..
+: 1744058152:0;pulseaudio
+: 1744058158:0;rm -rf _pulseaudio
+: 1744058162:0;sudo reboot
+: 1744058203:0;startx
+: 1744058212:0;sudo pacman -S brave
+: 1744058219:0;yay -S brave-bin
+: 1744058282:0;sudo pacman -Rcns brave-bin
+: 1744058284:0;clear
+: 1744058402:0;ls
+: 1744058407:0;rm -rf librewolf
+: 1744058422:0;clear
+: 1744058424:0;librewolf
+: 1744058435:0;mv .librewolf ~/.config
+: 1744058568:0;pipewire
+: 1744058570:0;pulseaudio
+: 1744058572:0;jak2
+: 1744058574:0;jacke
+: 1744058575:0;jack2
+: 1744058578:0;cmake
+: 1744058601:0;sudo pacman -S lxappearance
+: 1744058639:0;gtk
+: 1744058640:0;gitk
+: 1744058647:0;gtk
+: 1744058652:0;neofetch
+: 1744058757:0;yay -S materia-theme
+: 1744058773:0;cd .cace
+: 1744058775:0;cd .cache
+: 1744058775:0;ls
+: 1744058777:0;cd yay
+: 1744058777:0;ls
+: 1744058793:0;rm -rf brave-vin firefox-bin librewolf mksh ntop pamixer-git 
+: 1744058795:0;clear
+: 1744058890:0;startx
+: 1744058918:0;exit
+: 1744058923:0;clear
+: 1744058927:0;sudo pacman -Rcns lxappearance
+: 1744058932:0;clear
+: 1744058936:0;yay -S librewolf
+: 1744060689:0;ls
+: 1744060690:0;cd .cache
+: 1744060690:0;ls
+: 1744060698:0;rm -rf mozilla
+: 1744060699:0;clear
+: 1744060699:0;cd .
+: 1744060700:0;cd 
+: 1744060703:0;cd /etc/usr/bin
+: 1744060703:0;ls
+: 1744060706:0;cd /usr
+: 1744060708:0;cd bin
+: 1744060708:0;ls
+: 1744060712:0;cd
+: 1744060713:0;startx
+: 1744060721:0;yay -S librewolf-bin
+: 1744060741:0;sudo pacman -Syu
+: 1744060749:0;librewolf
+: 1744060766:0;pulseaudio
+: 1744060769:0;sudo pacman -Syu pulseaudio
+: 1744060777:0;sudo pacman -S pulseaudio
+: 1744060788:0;sudo pacman -S pipewire
+: 1744060797:0;sudo pacman -R pulseaudio
+: 1744060804:0;sudo pacman -S pipewire-pulse
+: 1744060817:0;sudo pacman -R librewolf-bin
+: 1744060819:0;clear
+: 1744060825:0;yay -S librewolf-bin
+: 1744060880:0;cd .config
+: 1744060880:0;ls
+: 1744060881:0;cd dwm
+: 1744060881:0;ls
+: 1744060882:0;cd ..
+: 1744060883:0;ls
+: 1744060890:0;rm -rf BraveSoftware
+: 1744060891:0;clear
+: 1744060893:0;surf
+: 1744060895:0;yay -S surf
+: 1744061010:0;pipewire
+: 1744061014:0;pulseaudio
+: 1744061016:0;_pulseaudio
+: 1744061022:0;which _pulseaudio
+: 1744061028:0;rm -rf _pulseaudio
+: 1744061029:0;clear
+: 1744061031:0;pulseaudio
+: 1744061037:0;xprop
+: 1744061120:0;cd .config
+: 1744061121:0;ls
+: 1744061121:0;cd dwm
+: 1744061122:0;ls
+: 1744061123:0;v config.h
+: 1744061164:0;sudo  make install
+: 1744061191:0;startx
+: 1744061209:0;sudo pacman -R gtk4
+: 1744061213:0;sudo pacman -R gtk
+: 1744061218:0;sudo pacman -S lxappearance
+: 1744061369:0;pacman -S libglvnd gtk3 libx11
+: 1744061373:0;sudo pacman -S libglvnd gtk3 libx11
+: 1744061457:0;gsettings get org.gnome.desktop.interface gtk-theme\
+
+: 1744061471:0;gsettings set org.gnome.desktop.interface gtk-theme "Materia"
+: 1744061476:0;echo $GTK2_RC_FILES\
+
+: 1744061484:0;cd .config
+: 1744061487:0;ls
+: 1744061493:0;cd 
+: 1744061499:0;v .gtk
+: 1744061511:0;v .gtkrc-2.0
+: 1744061537:0;cd .cofnig
+: 1744061539:0;cd .config
+: 1744061539:0;ls
+: 1744061542:0;cd gtk-3.0
+: 1744061542:0;ls
+: 1744061543:0;l
+: 1744061556:0;_journalctl -xe | grep librewolf\
+
+: 1744061575:0;cat /var/log/syslog | grep librewolf\
+
+: 1744061581:0;sv status librewolf\
+
+: 1744061587:0;cat /var/log/Xorg.0.log | grep EE  # Look for errors\
+
+: 1744061590:0;dmesg | grep -i error\
+
+: 1744061596:0;dmesg | grep -i error\
+
+: 1744061600:0;librewolf-bin\
+
+: 1744061603:0;librewolf
+: 1744061634:0;cd .config
+: 1744061635:0;ls
+: 1744061637:0;cd gtk-3.0
+: 1744061642:0;v settings.ini
+: 1744061684:0;v .gtkrc-2.0
+: 1744061714:0;v settings.ini
+: 1744061758:0;gtk
+: 1744061771:0;sudo pacman -S gtk-theme-arc gtk-theme-adwaita\
+
+: 1744061778:0;v .gtkrc-2.0
+: 1744061790:0;rm -rf .gtkrc-2.0
+: 1744061790:0;ls
+: 1744061791:0;cd .confg
+: 1744061798:0;sudo pacman -Rcns lxappearance
+: 1744061810:0;sudo pacman -Rcns librewolf
+: 1744061814:0;sudo pacman -Rcns librewolf-bin
+: 1744061844:0;sudo pacman -Rns librewolf-bin
+: 1744061852:0;sudo pacman -R librewolf-bin
+: 1744061858:0;cd /etc/usr
+: 1744061861:0;cd /usr/bin
+: 1744061861:0;ls
+: 1744061864:0;./librewolf
+: 1744061866:0;cd 
+: 1744061869:0;which librewolf
+: 1744061871:0;cd .cache
+: 1744061871:0;ls
+: 1744061874:0;rm -rf librewolf
+: 1744061875:0;clear
+: 1744061876:0;ls
+: 1744061879:0;rm -rf go_build
+: 1744061882:0;rm -rf vim
+: 1744061887:0;rm -rf BraveSoftware
+: 1744061888:0;clear
+: 1744061888:0;ls
+: 1744061893:0;cd ..
+: 1744061894:0;ls
+: 1744061896:0;ls -a
+: 1744061903:0;rm -rf .mozilla .npm .pki
+: 1744061905:0;clear
+: 1744061906:0;ls -a
+: 1744061912:0;v .dbus
+: 1744061916:0;cd .dbus
+: 1744061916:0;ls
+: 1744061920:0;v session-bis
+: 1744061923:0;v session-bus
+: 1744061940:0;cd ..
+: 1744061942:0;clear
+: 1744061944:0;librewolf
+: 1744061952:0;pacman -S librewolf
+: 1744061957:0;sudo pacman -S librewolf
+: 1744062105:0;yay -S librewolf-bin
+: 1744062150:0;sudo pacman -S pulseaudio xdg-desktop-portal
+: 1744062166:0;.librewolf
+: 1744062168:0;cd
+: 1744062170:0;librewolf
+: 1744062190:0;startx
+: 1744062276:0;brave
+: 1744062278:0;ls
+: 1744062279:0;cd .config
+: 1744062279:0;ls
+: 1744062282:0;cd yay
+: 1744062282:0;ls
+: 1744062284:0;l
+: 1744062285:0;cd ..
+: 1744062285:0;ls
+: 1744062286:0;cd ..
+: 1744062286:0;ls
+: 1744062289:0;cd yay
+: 1744062289:0;ls
+: 1744062291:0;cd .yay
+: 1744062291:0;ls
+: 1744062292:0;l
+: 1744062295:0;cd .cache
+: 1744062296:0;ls
+: 1744062297:0;cd yay
+: 1744062297:0;ls
+: 1744062303:0;rm -rf exa-git
+: 1744062304:0;clear
+: 1744062305:0;ls
+: 1744062314:0;rm -rf materia-theme-git xwayland-run
+: 1744062315:0;clear
+: 1744062316:0;cd
+: 1744062319:0;yay -S xwayland
+: 1744062322:0;yay -S xwayland-run
+: 1744062345:0;cd .librewolf
+: 1744062345:0;ls
+: 1744062371:0;mv .librewolf ~/.config
+: 1744062378:0;rm -rf .librewolf
+: 1744062379:0;clear
+: 1744062380:0;ls
+: 1744062392:0;mv ~/.config/.librewolf ~/
+: 1744062404:0;xwayland-run
+: 1744062410:0;xwayland-run librewolf
+: 1744062416:0;xwayland-run --help
+: 1744062423:0;xwayland-run --run
+: 1744062430:0;xwayland-run --xclient librewolf
+: 1744062432:0;xwayland-run --xclient 
+: 1744062435:0;xwayland-run --
+: 1744062437:0;xwayland-run 
+: 1744062441:0;_man
+: 1744062457:0;cd .config/dwm
+: 1744062457:0;ls
+: 1744062461:0;v config.h
+: 1744062471:0;sudo make install
+: 1744062536:0;ls
+: 1744062622:0;sudo pacman -Rcns lxappearance
+: 1744062626:0;clear
+: 1744062626:0;ls
+: 1744062664:0;sudo pacman -S webgitgtk
+: 1744062671:0;yay -S webgitgtk
+: 1744062679:0;yay -S webkitgtk
+: 1744062693:0;neofetch
+: 1744062724:0;sudo pacman -Rcns pulseaudio
+: 1744062766:0;sudo pacman -Rcns xwayland-run
+: 1744062770:0;clear
+: 1744063767:0;cd .cache/yay
+: 1744063768:0;ls
+: 1744063773:0;rm -rf webkitgtk
+: 1744063775:0;clear
+: 1744063795:0;sudo pacman -S gtk3
+: 1744063805:0;sudo pacman -S libpulse
+: 1744063824:0;sudo pacman -S ffmpeg
+: 1744063845:0;sudo pacman -R xdg-desktop-portal
+: 1744063890:0;pkill picom
+: 1744063901:0;cd .config
+: 1744063901:0;ls
+: 1744063903:0;cd picom
+: 1744063903:0;ls
+: 1744063906:0;v picom.conf
+: 1744063966:0;sudo pacman -S dbus
+: 1744063983:0;sudo pacman -S libxt
+: 1744063985:0;neofetch
+: 1744063992:0;sudo pacman -Q
+: 1744064072:0;sudo pacman -Rcns librewolf-bin
+: 1744064107:0;yay -S librewolf-bin
+: 1744064151:0;ls
+: 1744064154:0;cd .cache
+: 1744064154:0;ls
+: 1744064160:0;cd yay
+: 1744064160:0;ls
+: 1744064169:0;rm -rf xwayland-run 
+: 1744064180:0;rm -rf brave-bin
+: 1744064192:0;cd .config
+: 1744064192:0;ls
+: 1744064194:0;cd dwm
+: 1744064196:0;v config.h
+: 1744064385:0;sudo pacman -R gtk2
+: 1744064411:0;sudo pacman -R gtk3
+: 1744064457:0;neofetch
+: 1744064464:0;sudo pacman -Qqtd
+: 1744064522:0;sudo pacman -R xdg-desktop-portal
+: 1744064595:0;sudo pacman -Rcns xdg-desktop-portal
+: 1744064600:0;sudo pacman -R xdg-desktop-portal
+: 1744064602:0;yay -R xdg-desktop-portal
+: 1744064618:0;pkill xdg-desktop-portal
+: 1744064624:0;htop
+: 1744064648:0;cd /usr/lib
+: 1744064648:0;ls
+: 1744064663:0;rm -rf xdg-desktop-portal
+: 1744064664:0;ls
+: 1744064693:0;htop
+: 1744102347:0;startx
+: 1744102424:0;ls
+: 1744102431:0;sudo pacman -R pulseaudio
+: 1744102435:0;neofetch
+: 1744102441:0;clear
+: 1744102470:0;sudo pacman -Scc\
+
+: 1744102478:0;sudo paccache -r\
+
+: 1744102488:0;sudo pacman -Rns $(pacman -Qdtq)\
+
+: 1744102519:0;sudo du -sh /*\
+
+: 1744102546:0;sudo pacman -Rns pipewire
+: 1744102558:0;sudo pacman -Rns wireplumbe
+: 1744102559:0;sudo pacman -Rns wireplumber
+: 1744102569:0;sudo pacman -Rcns pipewire
+: 1744102577:0;librewolf
+: 1744102581:0;clear
+: 1744102584:0;startx
+: 1744102599:0;sudo pacman -Rns librewolf-bin
+: 1744102615:0;clear
+: 1744102620:0;yay -S librewolf-bin
+: 1744102718:0;cd /usr/lib//librewolf
+: 1744102718:0;ls
+: 1744102724:0;v librewolf.cfg.pacnew
+: 1744102735:0;v librewolf.cfg
+: 1744102786:0;cd /usr/lib/
+: 1744102796:0;sudo pacman -Rns librewolf-bin
+: 1744102802:0;rm -rf librewolf
+: 1744102806:0;cd librewolf
+: 1744102808:0;which librewolf
+: 1744102896:0;cd
+: 1744102898:0;yay -S librewolf-bin
+: 1744102936:0;neofetch
+: 1744103082:0;librewolf --hlep
+: 1744103085:0;librewolf --help
+: 1744103098:0;librewolf --sync
+: 1744103128:0;librewolf --g-fatal-warnings
+: 1744103144:0;librewolf --headless
+: 1744103193:0;librewolf
+: 1744103312:0;sudo pacman -S mesa
+: 1744103352:0;sudo pacman -S libvulkan\
+sudo pacman -S vulkan-intel  # If you're using Intel graphics\
+
+: 1744103366:0;librewolf --no-remote\
+
+: 1744103373:0;MOZ_X11_EGL=1 librewolf\
+
+: 1744103410:0;librewolf --headless
+: 1744103868:0;sudo pacman -S librewolf-bin
+: 1744103875:0;yay -R librewolf-bin
+: 1744103880:0;yay -S librewolf-bin
+: 1744103901:0;sudo pacman -Rcns lbrewolf-bin
+: 1744103906:0;yay -Rcns librewolf-bin
+: 1744103912:0;yay -S librewolf-bin
+: 1744105046:0;clear
+: 1744105047:0;yay -S librewolf-bin
+: 1744105056:0;librewolf --headless
+: 1744105149:0;sudo pacman -S mesa libglvnd xorg-server\
+
+: 1744105165:0;sudo pacman -S xorg-server-xvfb\
+
+: 1744105173:0;Xvfb :1 -screen 0 1280x720x24 & DISPLAY=:1 librewolf --headless\
+
+: 1744105217:0;librewolf 
+: 1744105260:0;librewolf
+: 1744105270:0;librewolf --headless
+: 1744105606:0;glxinfo -B
+: 1744105623:0;ps aux | grep librewolf
+: 1744105641:0;wmctrl -l # this is only gonna work on X11
+: 1744105646:0;xev -root -event substructure | grep -E '(Create|Map)Notify' # so is this
+: 1744105666:0;xev -root -event substructure | grep -EA3 '(Create|Map)Notify'
+: 1744106020:0;librewolf --headless
+: 1744106154:0;librewolf --start-debugger-server\
+
+: 1744106172:0;librewolf
+: 1744106196:0;librewolf --start-debugger-server\
+
+: 1744106210:0;export LIBGL_ALWAYS_SOFTWARE=1\
+
+: 1744106238:0;cat /var/log/messages | grep librewolf\
+
+: 1744106243:0;cat /var/log/dmesg | grep -i 'error'\
+
+: 1744106247:0;[200~cat /var/log/Xorg.0.log | grep -i 'error'
+: 1744106248:0;cat /var/log/Xorg.0.log | grep -i 'error'\
+
+: 1744106253:0;librewolf --no-remote\
+
+: 1744106261:0;ldd /usr/lib/librewolf/librewolf\
+
+: 1744106289:0;glxinfo | grep "OpenGL"\
+
+: 1744106309:0;librewolf -P\
+
+: 1744106349:0;cd .librewolf
+: 1744106349:0;ls
+: 1744106354:0;rm -rf 4yq9of2a.test
+: 1744106356:0;clear
+: 1744106386:0;sudo pacman -Qdt\
+
+: 1744106415:0;xtrace librewolf 2>&1 | tee librewolf-strace.log\
+
+: 1744106422:0;xtrace librewolf-bin
+: 1744106423:0;xtrace librewolf
+: 1744106432:0;sudo pacman -S gdb\
+
+: 1744106437:0;gdb --args librewolf\
+
+: 1744106454:0;librewolf
+: 1744106461:0;ls
+: 1744106468:0;librewolf -P
+: 1744106499:0;gdb --args librewolf\
+
+: 1744106508:0;pacman -Qe\
+
+: 1744106524:0;librewolf
+: 1744106549:0;startx
+: 1744192130:0;librewolf --headless
+: 1744192201:0;librewolf -P -no-remote -safe-mode
+: 1744192374:0;sudo pacman -S xf86-video-intel\
+
+: 1744192394:0;librewolf --headless --disable-gpu --disable-software-rasterizer\
+
+: 1744192402:0;sudo pacman -S libvdpau libva libx11\
+
+: 1744192414:0;librewolf --headless --disable-gpu --disable-software-rasterizer\
+
+: 1744192429:0;sudo pacman -S xf86-video-intel\
+
+: 1744192440:0;sudo pacman -Rcns xf86-video-intel\
+
+: 1744192444:0;clear
+: 1744192580:0;sudo pacman -R mesa
+: 1744192593:0;sudo pacman -Rcns msa
+: 1744192595:0;sudo pacman -Rcns mesa
+: 1744192672:0;librewolf --headless --disable-gpu --disable-software-rasterizer\
+
+: 1744192684:0;librewolf --disable-gpu --disable-software-rasterizer\
+
+: 1744192714:0;librewolf --headless --disable-gpu --disable-software-rasterizer\
+
+: 1744193117:0;librewolf --headless 
+: 1744193494:0;MOZ_DISABLE_RDD_SANDBOX=1
+: 1744193502:0;export MOZ_DISABLE_RDD_SANDBOX=1
+: 1744193507:0;export MOZ_X11_EGL=1
+: 1744193513:0;MOZ_GTK_OVERLAY_SCROLLING=0
+: 1744193515:0;export MOZ_GTK_OVERLAY_SCROLLING=0
+: 1744193534:0;export MOZ_USE_XINPUT2=1
+: 1744193541:0;export MOZ_ACCELERATED=1
+: 1744193550:0;librewolf --headless 
+: 1744193558:0;MOZ_GTK_OVERLAY_SCROLLING=0
+: 1744193935:0;rm -drf $HOME/.cache/mozilla\
+mv $HOME/.mozilla $HOME/.mozilla-bak
+: 1744193954:0;rm -drf $HOME/.cache/librewolf\
+mv $HOME/.librewolf $HOME/.librewolf-bak
+: 1744193959:0;l
+: 1744193973:0;rm -rf .librewolf
+: 1744193977:0;rm -rf .cache/librewolf
+: 1744194048:0;librewolf --safe-mode
+: 1744194202:0;lspci | grep VGA\
+
+: 1744194228:0;sudo pacman -Syu mesa xf86-video-intel\
+
+: 1744194281:0;sudo reboot
+: 1744194309:0;clear
+: 1744194310:0;startx
+: 1744194328:0;librewolf --safe-mode
+: 1744194383:0;sudo pacman -S libx11 libxtst libxcomposite\
+
+: 1744194466:0;sudo pacman -Rns xf86-video-intel\
+
+: 1744194476:0;xprop\
+
+: 1744194535:0;xwininfo\
+
+: 1744194554:0;librewolf --no-decorations\
+
+: 1744194574:0;LIBGL_ALWAYS_SOFTWARE=1 librewolf\
+
+: 1744194675:0;rm -rf .librewolf
+: 1744194676:0;clear
+: 1744194677:0;ls
+: 1744194690:0;mv .librewolf-bak .librewolf
+: 1744194721:0;mv ~/.librewolf/.librewolf-bak ~/
+: 1744194724:0;rm -rf .librewolf
+: 1744194737:0;mv .librewolf-bak .librewolf
+: 1744194742:0;mv ~/.librewolf/.librewolf-bak ~/
+: 1744194750:0;mv .librewolf-bak .librewolf
+: 1744194752:0;mv ~/.librewolf/.librewolf-bak ~/
+: 1744194756:0;rm -rf .librewolf
+: 1744194760:0;mv .librewolf-bak .librewolf
+: 1744194761:0;clear
+: 1744194803:0;LIBVA_DRIVER_NAME=i965 firefox-esr --safe-mode
+: 1744194819:0;LIBVA_DRIVER_NAME=i965 librewolf --safe-mode
+: 1744195248:0;librewolf
+: 1744195263:0;librewolf --safe-mode
+: 1744195347:0;cd Documents
+: 1744195347:0;ls
+: 1744195349:0;v CAA
+: 1744195549:0;ls
+: 1744195560:0;v librewolf-strace.log
+: 1744195567:0;rm -rf librewolf-strace.log
+: 1744195568:0;ls
+: 1744195568:0;l
+: 1744195582:0;wc -l 
+: 1744195767:0;librewolf
+: 1744195922:0;sudo pacman -S thunderbird
+: 1744196005:0;sudo pacman -Rcns librewolf
+: 1744196009:0;sudo pacman -Rcns librewolf-bin
+: 1744196031:0;sudo pacman -S librewolf-bin
+: 1744196041:0;yay -S librewolf-bin
+: 1744196048:0;yay -S brave-bin
+: 1744196063:0;ls
+: 1744196065:0;rm -rf .librewolf
+: 1744196066:0;clear
+: 1744196363:0;sudo pacman -Rcns brave-bin
+: 1744196367:0;clear
+: 1744196378:0;surf
+: 1744196382:0;yay -S surf-bin
+: 1744196384:0;yay -S surf
+: 1744196393:0;yay -S brave-bin
+: 1744196410:0;yay -S firefox-bin
+: 1744196450:0;rm -rf .cache/yay/firefox-bin
+: 1744196453:0;yay -S firefox-bin
+: 1744196502:0;firefox --headless
+: 1744196697:0;lspci -knn
+: 1744196717:0;pacman -Qs xf86-video
+: 1744196753:0;lspci -knn
+: 1744196756:0;pacman -Qs xf86-video
+: 1744196864:0;lspci -knn | tes
+: 1744196887:0;lspci -knn > test.txt
+: 1744196888:0;ls
+: 1744196891:0;v test.txt
+: 1744196913:0;ls
+: 1744196936:0;sudo pacman -S xf86-video-intel\
+
+: 1744196948:0;sudo pacman -S xorg-xvfb\
+xvfb-run firefox --headless\
+
+: 1744196962:0;sudo pacman -S mesa libva\
+
+: 1744196990:0;glxinfo | grep "OpenGL renderer"\
+
+: 1744196993:0;sudo pacman -S glxinfo
+: 1744197001:0;glxinfo | grep "OpenGL renderer"\
+
+: 1744197025:0;sudo pacman -S xorg-xvfb\
+
+: 1744197052:0;xvfb-run firefox --headless\
+
+: 1744197106:0;sudo pacman -S xorg-server-xvfb
+: 1744197140:0;sudo reboot
+: 1744197330:0;startx
+: 1744197371:0;sudo pacman -S 
+: 1744197385:0;sudo pacman -R xf86-video-intel\
+
+: 1744197393:0;sudo pacman -Rcns xf86-video-intel\
+
+: 1744197401:0;sudo pacman -S libxv
+: 1744197408:0;sudo pacman -S libxvmc
+: 1744197419:0;firefox
+: 1744197421:0;sudo pacman -S libxvmc
+: 1744197430:0;sudo pacman -R libxvmc
+: 1744197434:0;sudo pacman -R libcv
+: 1744197438:0;sudo pacman -R libxv
+: 1744197519:0;firefox
+: 1744197548:0;firefox --headless
+: 1744197635:0;sudo pacman -S xf86-video-intel
+: 1744197676:0;neofetch
+: 1744197709:0;clear
+: 1744197734:0;v /etc/X11/xorg.conf.d/20-intel.conf
+: 1744197739:0;v /etc/X11/xorg.conf.d/
+: 1744197820:0;clear
+: 1744197821:0;neofetch
+: 1744197825:0;clear
+: 1744197834:0;firefox --headless
+: 1744197909:0;sudo pacman -Rcns xf86-video-intel\
+
+: 1744198008:0;neofetch
+: 1744198037:0;lspci -k | grep -A 2 -i vga\
+
+: 1744198089:0;clear
+: 1744198220:0;sudo pacman -S libva-intel-driver
+: 1744198393:0;sudo pacman -S pipewire
+: 1744198400:0;pipewire
+: 1744198414:0;pamixer
+: 1744198418:0;pulsemixer
+: 1744198420:0;pipewire
+: 1744198446:0;sudo pacman -S pipewire-alsa
+: 1744198456:0;pipewire
+: 1744198524:0;sudo pacman -Rcns pipewire
+: 1744198537:0;sudo pacman -S opus
+: 1744198554:0;sudo pacman -Rcns pipewire-alsa
+: 1744198562:0;sudo pacman -Rcns pipewire
+: 1744198575:0;sudo pacman -S pulseaudio
+: 1744198715:0;pulsemixer
+: 1744198747:0;vdpauinfo
+: 1744198795:0;sudo pacman -Rcns libva-intel-driver
+: 1744198802:0;libva
+: 1744198808:0;sudo pacman -S libva
+: 1744198894:0;clear
+: 1744198937:0;sudo pacman -S librewolf-bin
+: 1744198945:0;yay -S librewolf-bin
+: 1744198960:0;sudo pacman -Rcns firefox-bin
+: 1744198970:0;yay -S librewolf-bin
+: 1744199014:0;librewolf --headless
+: 1744199151:0;xvfb-run librewolf
+: 1744199159:0;xvfb-run librewolf --headless
+: 1744199173:0;xvfb-run librewolf 
+: 1744199180:0;xvfb-run
+: 1744199193:0;xvfb-run firefox
+: 1744199198:0;xvfb-run librewolf-bin
+: 1744199204:0;xvfb-run librewolf --headless
+: 1744199213:0;xvfb-run librewolf --safe-mode
+: 1744199322:0;ps aux | grep firefox
+: 1744199358:0;sudo pacman -S wmctrl
+: 1744199388:0;xev -root -event substructure | grep -EA3 '(Create|Map)Notify'
+: 1744199445:0;ps aux | grep firefox
+: 1744199465:0;xtrace -f -tt -o /tmp/firefox.strace firefox
+: 1744199495:0;sudo pacman -S strace
+: 1744199503:0;strace -f -tt -o /tmp/firefox.strace firefox
+: 1744199515:0;strace -f -tt -o /tmp/librewolf.strace librewolf
+: 1744199538:0;cat /tmp/librewolf.strace | curl -F 'file=@-' 0x0.st
+: 1744199647:0;xvfb-run librewolf --safe-mode
+: 1744200143:0;sudo pacman -S icecat-bin
+: 1744200150:0;yay -S icecat-bin
+: 1744200174:0;icecat
+: 1744201020:0;cd .config
+: 1744201020:0;ls
+: 1744201027:0;rm -rf BraveSoftware
+: 1744201028:0;lear
+: 1744201029:0;ls
+: 1744201036:0;cd
+: 1744201046:0;sudo pacman -Rcns firefox-bin librewolf-bin
+: 1744201052:0;sudo pacman -Rcns librewolf-bin
+: 1744201056:0;clear
+: 1744201067:0;sudo pacman -S gnu-free-fonts
+: 1744201077:0;icecat
+: 1744201307:0;cd .config/dwm
+: 1744201308:0;ls
+: 1744201310:0;v config.h
+: 1744201322:0;sudo make install
+: 1744201332:0;neofetch
+: 1744201359:0;sudo pacman -R librewolf-bin
+: 1744201364:0;sudo pacman -R firefox-bin
+: 1744201367:0;ls
+: 1744201367:0;l
+: 1744201370:0;rm -rf .pki 
+: 1744201396:0;cd .librewolf
+: 1744201398:0;cd ..
+: 1744201404:0;rm -rf .librewolf 
+: 1744201405:0;clear
+: 1744201405:0;ls
+: 1744201411:0;rm -rf text.txt
+: 1744201411:0;ls
+: 1744201415:0;rm -rf test.txt
+: 1744201416:0;clear
+: 1744201421:0;ls
+: 1744201421:0;l
+: 1744201425:0;cd .mozilla
+: 1744201426:0;ls
+: 1744201428:0;rm -rf firefox
+: 1744201429:0;clear
+: 1744201429:0;ls
+: 1744201432:0;cd ..
+: 1744201432:0;ls
+: 1744201433:0;l
+: 1744201461:0;v .gnupg
+: 1744201668:0;htop
+: 1744201687:0;pkill pulseaudio
+: 1744201692:0;pulseaudio
+: 1744202013:0;ls
+: 1744202016:0;which librewolf
+: 1744202103:0;reboot
+: 1744202105:0;sudo reboot
+: 1744202155:0;startx
+: 1744202533:0;cd .local/bin/statusbar
+: 1744202533:0;ls
+: 1744202536:0;v sb-memory
+: 1744202553:0;htop
+: 1744202706:0;free -h | awk 'NR==2{printf "ðƒ¿§ƒ€%2.2fGiB/%2.2fGiB\n", ($3/1024), ($2/1024)}'\
+
+: 1744202733:0;free | awk 'NR==2{printf "ðƒ¿§ƒ€%2.2fGiB/%2.2fGiB\n", ($3/1024), ($2/1024)}'\
+
+: 1744202802:0;free --mebi | sed -n '2{p;q}' | awk '{printf ("ðƒ¿§ƒ€%2.2fGiB/%2.2fGiB\n", ( $3 / 1024), ($2 / 1024))}'
+: 1744202971:0;pulseaudio
+: 1744202976:0;pkill pulseaudio
+: 1744203018:0;pulseaudio
+: 1744203048:0;cd .cache
+: 1744203048:0;ls
+: 1744203058:0;cd mozilla
+: 1744203059:0;ls
+: 1744203062:0;rm -rf firefox
+: 1744203063:0;clear
+: 1744203064:0;cd ..
+: 1744203065:0;ls
+: 1744203070:0;rm -rf BraveSoftware
+: 1744203071:0;clear
+: 1744203071:0;ls
+: 1744203188:0;sudo pacman -S enigma
+: 1744203266:0;cd /
+: 1744203266:0;ls
+: 1744203277:0;cd lost+found
+: 1744203314:0;cd
+: 1744203316:0;cd /
+: 1744203318:0;ls
+: 1744203319:0;cd dev
+: 1744203319:0;ls
+: 1744203351:0;cd
+: 1744203356:0;ls
+: 1744203362:0;cd Downloads
+: 1744203362:0;ls
+: 1744203372:0;rm  dwm-20120806.png  'Screenshot 2025-04-04 at 17-19-57 dwm-20120806.png (PNG Image 1920 Ãƒ· 1080 pixels).png'\
+
+: 1744203374:0;clear
+: 1744203374:0;ls
+: 1744230997:0;neofetch
+: 1744231006:0;clear
+: 1744231007:0;sudo reboot
+: 1744231484:0;startx
+: 1744235505:0;xinput
+: 1744235522:0;sudo reboot
+: 1744235677:0;clear
+: 1744235678:0;startx
+: 1744281509:0;clear
+: 1744281510:0;startx
+: 1744281538:0;pulseaudio
+: 1744281546:0;pkill pulseaudio
+: 1744281548:0;pulseaudio
+: 1744281618:0;pamixer
+: 1744281621:0;pause
+: 1744281644:0;sudo pacman -S pulseaudio-als
+: 1744281648:0;sudo pacman -S pulseaudio-alsa
+: 1744281680:0;neofetch
+: 1744283021:0;htop
+: 1744283172:0;yay -S librewolf-bin
+: 1744284355:0;cd .config/dwmblocks
+: 1744284355:0;ls
+: 1744284357:0;v config.h
+: 1744284401:0;echo $PATH
+: 1744284413:0;cd .config/X11
+: 1744284417:0;cd .config/zsh
+: 1744284417:0;ls
+: 1744284419:0;v .zshrc
+: 1744284426:0;v aliasrc
+: 1744284432:0;v profile
+: 1744284520:0;source ~/.config/zsh/.zshrc
+: 1744284578:0;cd .config/
+: 1744284579:0;cd
+: 1744284583:0;cd .local/bin/statusbar
+: 1744284583:0;ls
+: 1744284596:0;v sb-cpu
+: 1744284626:0;v sb-tasks
+: 1744284647:0;v sb-cpubars
+: 1744284673:0;v sb-pacpackages
+: 1744284687:0;popupgrade
+: 1744284692:0;echo $PATH
+: 1744284709:0;v .zshrc
+: 1744284712:0;v profile
+: 1744284729:0;echo $PATH
+: 1744284733:0;source ~/.config/zsh/.zshrc
+: 1744284734:0;echo $PATH
+: 1744284747:0;sb-volume
+: 1744284752:0;v sb-pacpackages
+: 1744284770:0;;s
+: 1744284770:0;ls
+: 1744284775:0;v sb-doppler
+: 1744284789:0;v sb-ticker
+: 1744284858:0;v sb-cusage
+: 1744284936:0;v config.h
+: 1744284952:0;sudo make install
+: 1744284959:0;pkill dwmblocks
+: 1744284966:0;startx
+: 1744284970:0;dwmblocks
+: 1744284989:0;cd .local/bin
+: 1744284989:0;ls
+: 1744284993:0;cd statusbar
+: 1744284994:0;ls
+: 1744284997:0;v sb-cusage
+: 1744285041:0;v sb-cpu
+: 1744285049:0;v sb-cusage
+: 1744285054:0;top -bn 1 | awk '/^%Cpu/ {printf "%.f%%\n", $2+$4+$6}'\
+
+: 1744285065:0;v sb-cpu
+: 1744285077:0;chmod +x sb-cusage
+: 1744285088:0;v sb-cpu
+: 1744285097:0;ls
+: 1744285100:0;v sb-pacpackages
+: 1744285109:0;cd .config
+: 1744285112:0;cd dwmblocks
+: 1744285112:0;ls
+: 1744285113:0;v config.h
+: 1744285141:0;sudo make install
+: 1744285158:0;v config.h
+: 1744285168:0;sudo make install
+: 1744285170:0;startx
+: 1744285175:0;dwmblocks
+: 1744285184:0;cd .config/
+: 1744285184:0;ls
+: 1744285186:0;v config.h
+: 1744285194:0;ls
+: 1744285197:0;cd dwmblocks
+: 1744285198:0;ls
+: 1744285201:0;v config.h
+: 1744285231:0;sb-pacpackages
+: 1744285245:0;cd
+: 1744285247:0;cd .local/bin
+: 1744285248:0;ls
+: 1744285250:0;cd statusbar
+: 1744285250:0;ls
+: 1744285253:0;v sb-pacpackages
+: 1744285281:0;cd /usr/share/libalpm
+: 1744285283:0;cd hooks
+: 1744285285:0;ls
+: 1744285288:0;v statusbar.hook
+: 1744285357:0;sudo nvim statusbar.hook
+: 1744285387:0;sudo nano statusbar.hook
+: 1744285472:0;dwmblocks
+: 1744285488:0;pacman -Qu | grep -Fcv "[ignored]" | sed "s/^/ðƒ¿ƒ³¦/;s/^ðƒ¿ƒ³¦0$//g"\
+
+: 1744285516:0;cd
+: 1744285517:0;pacman -Qu | grep -Fcv "[ignored]" | sed "s/^/ðƒ¿ƒ³¦/;s/^ðƒ¿ƒ³¦0$//g"\
+
+: 1744285521:0;sudo pacman -Qu | grep -Fcv "[ignored]" | sed "s/^/ðƒ¿ƒ³¦/;s/^ðƒ¿ƒ³¦0$//g"\
+
+: 1744285527:0;cd
+: 1744285531:0;cd .local/bin
+: 1744285531:0;ls
+: 1744285534:0;cd statusbar
+: 1744285534:0;ls
+: 1744285537:0;v sb-popupgrade
+: 1744285554:0;libalpm
+: 1744285566:0;sudo reboo
+: 1744285571:0;sudo reboot
+: 1744285605:0;startx
+: 1744285621:0;cd .config
+: 1744285621:0;ls
+: 1744285624:0;cd dwmblocks
+: 1744285624:0;ls
+: 1744285626:0;v config.h
+: 1744285652:0;startx
+: 1744285659:0;sudo reboot
+: 1744285691:0;startx
+: 1744285715:0;cat /tmp/sysupdates 2>/dev/null
+: 1744285721:0;cd
+: 1744285722:0;cd .config
+: 1744285723:0;ls
+: 1744285727:0;cd dwmblocks
+: 1744285729:0;lf
+: 1744285765:0;cd .local/bin/statusbar
+: 1744285765:0;ls
+: 1744285769:0;v sb-pacpackages
+: 1744285801:0;sb-pacpackages
+: 1744285812:0;cd .config
+: 1744285815:0;sb-pacpackages
+: 1744285819:0;v sb-pacpackages
+: 1744285871:0;sudo make install
+: 1744285882:0;pkill dwmblocks
+: 1744285898:0;sudo pacman -Rcns exa-git
+: 1744285911:0;cd /usr/share/libalpm/hooks
+: 1744285917:0;sudo rm -rf statusbar.hook
+: 1744285918:0;clear
+: 1744285919:0;cd
+: 1744285920:0;clear
+: 1744285932:0;v config.h
+: 1744285941:0;sudo make install
+: 1744285945:0;startx
+: 1744286043:0;cd .config
+: 1744286043:0;ls
+: 1744286052:0;mv dmenu dmenu-bak
+: 1744286056:0;git clone https://github.com/LukeSmithxyz/dmenu
+: 1744286058:0;cd dmenu
+: 1744286058:0;ls
+: 1744286060:0;sudo make install
+: 1744286088:0;git clone https://github.com/LukeSmithxyz/voidrice
+: 1744286092:0;cd voidrice
+: 1744286093:0;ls
+: 1744286096:0;cd .local
+: 1744286096:0;ls
+: 1744286098:0;cd bin
+: 1744286099:0;ls
+: 1744286138:0;cd .config/dwmblocks
+: 1744286138:0;ls
+: 1744286139:0;v config.h
+: 1744286145:0;cd
+: 1744286148:0;cd .config/nvim
+: 1744286149:0;ls
+: 1744286152:0;v init.vim
+: 1744286156:0;cd .config/
+: 1744286156:0;ls
+: 1744286278:0;cd .local/src
+: 1744286321:0;cd .local/bin
+: 1744286321:0;ls
+: 1744286332:0;dmenupass
+: 1744286340:0;compiler
+: 1744286346:0;dmenuhandler
+: 1744286362:0;mounter
+: 1744286367:0;unix
+: 1744286378:0;statusbar
+: 1744286380:0;cd ..
+: 1744286380:0;ls
+: 1744286383:0;setbg
+: 1744286387:0;lfub
+: 1744286393:0;getkeys
+: 1744286398:0;pauseallmpv
+: 1744286410:0;cd ..
+: 1744286412:0;rm rf dmenu
+: 1744286415:0;rm -rf dmenu
+: 1744286417:0;clear
+: 1744286417:0;ls
+: 1744286420:0;mv dmenu-bak dmenu
+: 1744286421:0;clear
+: 1744286421:0;ls
+: 1744286477:0;passwd
+: 1744287686:0;uzio
+: 1744287688:0;gunzip
+: 1744287691:0;gzip
+: 1744287697:0;gzip -h
+: 1744287767:0;tar
+: 1744287783:0;cd Downloads
+: 1744287784:0;ls
+: 1744287797:0;tar -xvjf firefox-128.9.0esr.tar.bz2
+: 1744287820:0;ls
+: 1744287822:0;cd firefox
+: 1744287827:0;ls
+: 1744287831:0;./firefox-bin
+: 1744288092:0;which firefox
+: 1744289057:0;./firefox
+: 1744289064:0;firefox
+: 1744289075:0;cd
+: 1744289078:0;cd .mozilla
+: 1744289079:0;ls
+: 1744289081:0;cd firef
+: 1744289083:0;cd firefox
+: 1744289083:0;ls
+: 1744289085:0;cd ..
+: 1744289086:0;ls
+: 1744289087:0;cd ..
+: 1744289472:0;ls
+: 1744289475:0;cd Downloads
+: 1744289477:0;ls
+: 1744289485:0;rm -rf firefox  firefox-128.9.0esr.tar.bz2
+: 1744289487:0;clear
+: 1744289487:0;ls
+: 1744289509:0;yay -S librewolf-bin
+: 1744289562:0;yay -Rcns librewolf-bin
+: 1744289569:0;neofetch
+: 1744365790:0;startx
+: 1744365977:0;nvim
+: 1744365981:0;ls
+: 1744365982:0;cd .config
+: 1744365982:0;ls
+: 1744365984:0;cd dwmblocks
+: 1744365984:0;ls
+: 1744365985:0;l
+: 1744365995:0;rm -rf .git .gitignore
+: 1744365996:0;ls
+: 1744365997:0;cd ..
+: 1744365998:0;ls
+: 1744365999:0;cd dmen
+: 1744366001:0;cd dmenu
+: 1744366001:0;ls
+: 1744366004:0;rm -rf .git
+: 1744366010:0;rm -rf .gitignore
+: 1744366010:0;ls
+: 1744366011:0;l
+: 1744366015:0;cd ..
+: 1744366015:0;ls
+: 1744366020:0;cd dwm
+: 1744366022:0;rm -rf .git
+: 1744366023:0;l
+: 1744366026:0;rm -rf .gitignore
+: 1744366027:0;ls
+: 1744366031:0;cd
+: 1744366032:0;clear
+: 1744366035:0;cd Documents
+: 1744366035:0;ls
+: 1744366040:0;mkdir Notes
+: 1744366042:0;cd Notes
+: 1744366063:0;v lesson1
+: 1744369752:0;ls
+: 1744371816:0;clear
+: 1744371819:0;cd
+: 1744371820:0;syu
+: 1744371824:0;cd .config
+: 1744371824:0;ls
+: 1744371825:0;cd zsh
+: 1744371825:0;ls
+: 1744371828:0;v aliasrc
+: 1744371847:0;wttr
+: 1744371886:0;pkgcln
+: 1744371891:0;paccache
+: 1744371941:0;sudo pacman -S pacman-contrib
+: 1744371960:0;pkgcln
+: 1744371988:0;pac -Syu
+: 1744371997:0;yt
+: 1744372009:0;pf
+: 1744372011:0;neo
+: 1744372012:0;pf
+: 1744372024:0;l
+: 1744372026:0;la
+: 1744372046:0;rm -rf .librewolf
+: 1744372051:0;ls
+: 1744372052:0;cd Downloads
+: 1744372053:0;ls
+: 1744372055:0;cd
+: 1744372056:0;ls
+: 1744372058:0;cd Pictures
+: 1744372059:0;ls
+: 1744372065:0;v picture.png
+: 1744372070:0;./picture.png
+: 1744372072:0;picture
+: 1744372075:0;feh
+: 1744372081:0;rm -rf picture.png
+: 1744372081:0;ls
+: 1744372083:0;cd Italy
+: 1744372083:0;ls
+: 1744372087:0;feh
+: 1744372106:0;cd .config/dwm
+: 1744372106:0;ls
+: 1744372107:0;v config.
+: 1744372110:0;v config.h
+: 1744372178:0;spterm
+: 1744372454:0;sudo pacman -S ncmpcpp
+: 1744372460:0;ncmpcpp
+: 1744372469:0;sudo pacman -S mpd
+: 1744372635:0;lfub
+: 1744372992:0;cd ..
+: 1744372993:0;ls
+: 1744372998:0;cd Winter
+: 1744372998:0;ls
+: 1744373003:0;l
+: 1744373004:0;ls
+: 1744373006:0;cd ..
+: 1744373007:0;ls
+: 1744373014:0;mv Italy Wallpapers
+: 1744373021:0;cd .config/dwm
+: 1744373022:0;ls
+: 1744373026:0;cd ..
+: 1744373028:0;cd X11
+: 1744373028:0;L
+: 1744373030:0;la
+: 1744373034:0;cd 
+: 1744373037:0;v .xinitrc
+: 1744373073:0;v config.h
+: 1744373111:0;sudo make install
+: 1744373120:0;startx
+: 1744373134:0;bc
+: 1744373142:0;sudo pacman -S bc
+: 1744373176:0;cd .config
+: 1744373176:0;ls
+: 1744373177:0;cd dwm
+: 1744373177:0;ls
+: 1744373179:0;v config.h
+: 1744373854:0;sudo make install
+: 1744373860:0;startx
+: 1744373898:0;cd .config
+: 1744373898:0;ls
+: 1744373900:0;cd dwm
+: 1744373901:0;v config.h
+: 1744374062:0;sudo make install
+: 1744374067:0;startx
+: 1744374077:0;cd .config
+: 1744374077:0;ls
+: 1744374079:0;cd dwm
+: 1744374079:0;ls
+: 1744374081:0;v config.h
+: 1744374460:0;sudo make install
+: 1744374486:0;v config.h
+: 1744374521:0;sudo make install
+: 1744374526:0;v config.h
+: 1744374545:0;sudo make install
+: 1744374547:0;startx
+: 1744374557:0;v
+: 1744374568:0;cd .config
+: 1744374568:0;ls
+: 1744374570:0;cd dwmblocks
+: 1744374570:0;ls
+: 1744374571:0;v config.h
+: 1744374574:0;ls
+: 1744374575:0;cd ..
+: 1744374578:0;cd dwmblocks
+: 1744374578:0;ls
+: 1744374580:0;cd patches
+: 1744374581:0;ls
+: 1744374582:0;cd ..
+: 1744374583:0;ls
+: 1744374583:0;cd ..
+: 1744374584:0;ls
+: 1744374585:0;cd yay
+: 1744374586:0;ls
+: 1744374586:0;cd ..
+: 1744374587:0;ls
+: 1744374588:0;cd zsh
+: 1744374588:0;ls
+: 1744374593:0;v profile
+: 1744374631:0;ls
+: 1744374632:0;v .zshrc
+: 1744374646:0;lf
+: 1744374657:0;lfcd
+: 1744374733:0;cd 
+: 1744376102:0;startx
+: 1744376104:0;ls
+: 1744376108:0;cd Pictures
+: 1744376108:0;ls
+: 1744376110:0;cd Wallpapers
+: 1744376112:0;feh ./
+: 1744376146:0;feh --bg-scale ./venice.jpg
+: 1744376153:0;feh --bg-scale ./Italy.png
+: 1744376158:0;feh --bg-scale ./italy.pmg
+: 1744376159:0;feh --bg-scale ./italy.png
+: 1744376161:0;ls
+: 1744376162:0;clear
+: 1744376167:0;sudo pacman -Syu
+: 1744453089:0;startx
+: 1744453320:0;git clone https://github.com/MultiMC/multimc-pkgbuild.git\
+cd multimc-pkgbuild\
+makepkg -si
+: 1744453513:0;sudo pacman -S jdk21-openjdk
+: 1744453772:0;neofetch
+: 1744454140:0;sudo pacman -Rcns jdk21-openjdk
+: 1744454275:0;cd Downloads
+: 1744454276:0;ls
+: 1744454290:0;tar -xvjf openlogic-openjdk-21.0.6+7-linux-x64.tar.gz
+: 1744454310:0;enlogic-openjdk-21.0.6+7-linux-x64.tar.gz
+: 1744454351:0;man atr
+: 1744454352:0;man
+: 1744454392:0;ls
+: 1744454401:0;tar -xvzf jdk-21_linux-x64_bin.tar.gz
+: 1744454406:0;ls
+: 1744454412:0;cd jdk-21.0.6
+: 1744454412:0;ls
+: 1744454591:0;find ~/.minecraft/ -name "*lwjgl*" 
+: 1744454598:0;la
+: 1744454608:0;which multimc
+: 1744454610:0;cd .config
+: 1744454610:0;ls
+: 1744454613:0;cd 
+: 1744454614:0;ls
+: 1744454615:0;cd .local
+: 1744454616:0;ls
+: 1744454616:0;cd share
+: 1744454617:0;ls
+: 1744454620:0;cd multimc
+: 1744454620:0;ls
+: 1744454624:0;cd libraries
+: 1744454624:0;ls
+: 1744454626:0;cd 
+: 1744454639:0;find ~/.local/share/multimc/ -name "*lwjgl*" 
+: 1744454792:0;find ~/.minecraft/ -name "*lwjgl*" 
+: 1744454794:0;find ~/.local/share/multimc/ -name "*lwjgl*" 
+: 1744455001:0;cd .local/share/multimc/libraries/org/lwjgl
+: 1744455003:0;cd 3.3.3
+: 1744455004:0;ls
+: 1744455012:0;cd lwjgl
+: 1744455013:0;ls
+: 1744455016:0;cd 3.3.3
+: 1744455016:0;ls
+: 1744455104:0;jar xf ./lwjgl-3.3.3.jar
+: 1744455107:0;jar
+: 1744455134:0;sudo pacman -S jar
+: 1744455155:0;sudo pacman -S jdk21-openjdk
+: 1744455162:0;jar xf ./lwjgl-3.3.3.jar
+: 1744455356:0;sudo pacman -S jdk17-openjdk\
+
+: 1744455806:0;find ~/.local/share/multimc/ -name "*lwjgl*" 
+: 1744455853:0;mkdir -p ~/.local/share/multimc/instances/1.21.1/natives\
+
+: 1744455860:0;cd .local/share/multimc
+: 1744455860:0;ls
+: 1744455862:0;cd instances
+: 1744455863:0;ls
+: 1744455866:0;rm -rf 1.21.1
+: 1744455870:0;ls
+: 1744455881:0;cd 1.21.1
+: 1744455881:0;ls
+: 1744455896:0;mkdir natives
+: 1744455898:0;cd ~/.local/share/multimc/instances/<YourInstanceName>/natives\
+jar xf ~/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-linux.jar\
+
+: 1744455919:0;cd ~/.local/share/multimc/instances/1.21.1/natives\
+jar xf ~/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-linux.jar\
+
+: 1744455989:0;sudo pacman -Rcns jdk17-openjdk
+: 1744455995:0;sudo pacman -Rcns multimc
+: 1744456002:0;yay -Rcns multimc
+: 1744456005:0;ls
+: 1744456013:0;cd Downloads
+: 1744456013:0;ls
+: 1744456019:0;rm -rf jdk-21.0.6
+: 1744456021:0;ls
+: 1744456028:0;rm -rf jdk-21_linux-x64_bin.tar.gz
+: 1744456034:0;cd
+: 1744456034:0;ls
+: 1744456085:0;multimc
+: 1744458510:0;cd .local/share/multimc
+: 1744458513:0;cd instances
+: 1744458513:0;ls
+: 1744458531:0;cd 'AsguhoClient mc1.21.1-2.597'
+: 1744458531:0;ls
+: 1744458536:0;cd .minecraft
+: 1744458536:0;ls
+: 1744458541:0;cd screenshots
+: 1744458542:0;ls
+: 1744458548:0;rm -rf 2025-04-12_12.48.01_2.png  2025-04-12_12.48.01.png  2025-04-12_12.48.04.png  2025-04-12_12.48.05.png\
+
+: 1744529238:0;startx
+: 1744529522:0;scrot
+: 1744629455:0;startx
+: 1744711771:0;sudo pacman -S jdk22-openjdk\
+
+: 1744711793:0;sudo pacman -S jdk-openjdk\
+
+: 1744712156:0;sudo pacman -Rcns jdk-openjdk
+: 1744712166:0;clear
+: 1744713514:0;scrot
+: 1744731800:0;startx
+: 1744732532:0;startx#
+: 1744732535:0;startx
+: 1744798316:0;sudo pacman -sYU
+: 1744798322:0;sudo pacman -Syu
+: 1744801501:0;cd Downloads
+: 1744801538:0;tar -xvzf firefox-128.9.0esr.tar.bz2
+: 1744801546:0;tar -xvf firefox-128.9.0esr.tar.bz2
+: 1744801557:0;cd firefox
+: 1744801557:0;ls
+: 1744801559:0;./firefox
+: 1744801565:0;ls
+: 1744801575:0;cd ..
+: 1744801575:0;ls
+: 1744801589:0;cd firefox
+: 1744801589:0;ls
+: 1744801648:0;cd .
+: 1744801650:0;rm -rf firefox
+: 1744801663:0;cd
+: 1744801665:0;yay -S firefox-esr-i18n-en-gb
+: 1744801686:0;sudo pacman -Rcns icecat
+: 1744801700:0;sudo pacman -Rcns icecat-bin
+: 1744801703:0;clear
+: 1744801724:0;sudo pacman -S librewolf-bin
+: 1744801729:0;yay -S librewolf-bin
+: 1744801769:0;sudo pacman -Rcns librewolf
+: 1744801772:0;sudo pacman -Rcns librewolf-bin
+: 1744801774:0;clear
+: 1744801843:0;sudo pacman -S firefox-bin
+: 1744801851:0;yay -S firefox-bin
+: 1744801954:0;sudo pacman -Rcns firefox-bin
+: 1744802367:0;yay -S librewolf-bin
+: 1744802481:0;MOZ_USE_XINPUT2=1 firefox\
+
+: 1744802512:0;MOZ_USE_XINPUT2=1 librewolf\
+
+: 1744802517:0;xinput
+: 1744802519:0;MOZ_USE_XINPUT2=1 librewolf\
+
+: 1744802537:0;librewolf --no-decorations\
+
+: 1744802562:0;librewolf --new-instance --ProfileManager\
+
+: 1744802591:0;librewolf --version
+: 1744802611:0;ldd $(which librewolf) | grep gtk
+: 1744802645:0;xprop
+: 1744802686:0;~/.config/gtk-3.0/settings.ini\
+
+: 1744802692:0;cd .config
+: 1744802696:0;cd  gtk-3.0
+: 1744802696:0;ls
+: 1744802701:0;v settings.ini
+: 1744802719:0;GTK_CSD=0 MOZ_ENABLE_WAYLAND=0 GDK_BACKEND=x11 MOZ_GTK_TITLEBAR_DECORATION=system librewolf\
+
+: 1744802813:0;librewolf
+: 1744802887:0;LIBGL_ALWAYS_SOFTWARE=1 MOZ_DISABLE_RDD_SANDBOX=1 MOZ_ENABLE_WAYLAND=0 GTK_CSD=0 librewolf\
+
+: 1744802900:0;pkill picom
+: 1744802916:0;librewolf --no-shadow
+: 1744802944:0;export MOZ_USE_XINPUT2=1\
+export MOZ_ENABLE_WAYLAND=0\
+export GDK_SCALE=1\
+export GDK_DPI_SCALE=1\
+export LIBGL_ALWAYS_SOFTWARE=1\
+
+: 1744802948:0;env GDK_BACKEND=x11 librewolf --width 1280 --height 720\
+
+: 1744802961:0;scrot border-test.png\
+
+: 1744802963:0;ls
+: 1744802970:0;feh
+: 1744802986:0;feh /border-test.png
+: 1744802989:0;feh border-test.png
+: 1744803006:0;xwininfo\
+
+: 1744803020:0;lspci | grep VGA\
+
+: 1744803041:0;glxinfo | grep "OpenGL renderer"\
+
+: 1744803082:0;sudo pacman -S xf86-video-intel\
+
+: 1744803093:0;cat /etc/X11/xorg.conf.d/*.conf | grep -i dri\
+
+: 1744803111:0;inxi -Gxx\
+
+: 1744803116:0;sudo pacman -S inxi\
+
+: 1744803120:0;inxi -Gxx\
+
+: 1744803162:0;DRI_PRIME=0 LIBGL_DRIVERS_PATH=/usr/lib/dri LIBGL_DEBUG=verbose librewolf\
+
+: 1744803193:0;LIBGL_ALWAYS_INDIRECT=1 DRI_PRIME=0 LIBGL_DRIVERS_PATH=/usr/lib/dri LIBGL_DEBUG=verbose librewolf\
+
+: 1744803223:0;sudo pacman -Syu mesa\
+
+: 1744803228:0;glxinfo | grep "OpenGL renderer"\
+
+: 1744803253:0;reboot
+: 1744803257:0;sudo reboot
+: 1744803289:0;startx
+: 1744803298:0;glxinfo | grep "OpenGL renderer"\
+
+: 1744803364:0;librewolf --headless
+: 1744803378:0;xwininfo
+: 1744803381:0;l
+: 1744803382:0;cd .config
+: 1744803383:0;l
+: 1744803384:0;cd zsh
+: 1744803385:0;ls
+: 1744803387:0;v histor
+: 1744803389:0;v history
+: 1744803445:0;sudo pacman -S vulkan-intel
+: 1744803477:0;glxinfo | grep "opengl"\ 
+: 1744803481:0;\
+glxinfo | grep "opengl"
+: 1744803518:0;glxinfo | grep "OpenGL renderer"
+: 1744803556:0;inxi -Gxx
+: 1744803587:0;sudo pacman -Syu 
+: 1744803595:0;LIBGL_ALWAYS_SOFTWARE=1 librewolf\
+
+: 1744803638:0;MOZ_ACCELERATED=1 librewolf\
+
+: 1744803709:0;nano ~/.local/share/applications/librewolf.desktop\
+
+: 1744803719:0;librewolf
+: 1744803742:0;cd .config
+: 1744803743:0;ls
+: 1744803743:0;cd zsh
+: 1744803744:0;ls
+: 1744803747:0;v profile
+: 1744803763:0;source ~/.config/zsh/.zshrc
+: 1744803777:0;nano ~/.local/share/applications/librewolf.desktop\
+
+: 1744803785:0;cd
+: 1744803794:0;MOZ_ACCELERATED=1 librewolf\
+
+: 1744803861:0;ls
+: 1744803873:0;MOZ_ACCELERATED=1 librewolf --headless
+: 1744803893:0;MOZ_ACCELERATED=0 librewolf --headless\
+
+: 1744803911:0;sudo pacman -S xorg-server-xvfb  # For Arch-based systems
+: 1744803918:0;xvfb-run librewolf --headless\
+
+: 1744803943:0;LIBGL_ALWAYS_SOFTWARE=1 MOZ_ACCELERATED=0 librewolf --headless\
+
+: 1744803950:0;xvfb-run LIBGL_ALWAYS_SOFTWARE=1 MOZ_ACCELERATED=0 librewolf --headless\
+
+: 1744803969:0;xvfb-run librewolf --headless --no-sandbox\
+
+: 1744803992:0;pkill firefox
+: 1744803995:0;xvfb-run librewolf --headless --no-sandbox\
+
+: 1744804015:0;librewolf --no-sandbox
+: 1744804032:0;pkill librewolf
+: 1744804033:0;pkill firefox
+: 1744804038:0;librewolf --no-sandbox
+: 1744804094:0;MOZ_ACCELERATED=1 librewolf
+: 1744804158:0;l
+: 1744804161:0;rm -rf .mozilla
+: 1744804163:0;clear
+: 1744804164:0;ls
+: 1744804194:0;yay -Rcns firefox-esr-i18n-en-gb
+: 1744804203:0;clear
+: 1744804214:0;sudo pacman -Rcns firefox-bin
+: 1744804223:0;q
+: 1744804227:0;clear
+: 1744804230:0;source ~/.config/zsh/.zshrc
+: 1744804236:0;librewolf
+: 1744804320:0;clear
+: 1744804322:0;cd .confi
+: 1744804325:0;cd .config
+: 1744804325:0;ls
+: 1744804332:0;rm -rf icecat
+: 1744804362:0;MOZ_ACCELERATED=1 librewolf
+: 1744804590:0;MOZ_LOG="PlatformDecoderModule:5" MOZ_WEBRENDER=1 MOZ_DISABLE_RDD_SANDBOX=1 MOZ_X11_EGL=1 /usr/bin/librewolf
+: 1744804681:0;vainfo
+: 1744804685:0;vga 
+: 1744804703:0;lba
+: 1744804706:0;lbw
+: 1744804710:0;IBA
+: 1744804711:0;ibw
+: 1744804728:0;MOZ_LOG="PlatformDecoderModule:5" MOZ_WEBRENDER=1 MOZ_X11_EGL=1 firefox
+: 1744804733:0;MOZ_LOG="PlatformDecoderModule:5" MOZ_WEBRENDER=1 MOZ_X11_EGL=1 librewolf
+: 1744805000:0;xdg-settings get default-web-browser
+: 1744805018:0;$ pkcs15-tool --clear-cache
+: 1744805027:0;pkcs15-tool --clear-cache
+: 1744805201:0;sudo pacman -S firefox-vaapi 
+: 1744805206:0;yay -S firefox-vaapi 
+: 1744805499:0;sudo pacman -S intel-media-driver
+: 1744805529:0;sudo pacman -S libvpl
+: 1744805551:0;sudo pacman -S vpl-gpu-rt
+: 1744805591:0;MOZ_LOG="PlatformDecoderModule:5" MOZ_WEBRENDER=1 MOZ_X11_EGL=1 librewolf
+: 1744805609:0;MOZ_LOG="PlatformDecoderModule:5" MOZ_WEBRENDER=1 MOZ_ACCELERATED=1 MOZ_X11_EGL=1 librewolf
+: 1744805615:0;MOZ_LOG="PlatformDecoderModule:5" MOZ_WEBRENDER=1 MOZ_ACCELERATED=0 MOZ_X11_EGL=1 librewolf
+: 1744805767:0;firefox -P -no-remote -safe-mode
+: 1744805772:0;librewolf -P -no-remote -safe-mode
+: 1744805807:0;vainfo
+: 1744805812:0;sudo pacman -S vainfio
+: 1744805816:0;yay -S vainfo
+: 1744805873:0;lspci -knn
+: 1744805882:0;lspci | grep VGA
+: 1744805902:0;pacman -Qs xf86-video
+: 1744805919:0;lspci -knn
+: 1744805984:0;glxinfo -B
+: 1744806027:0;ps aux | grep librewolf
+: 1744806038:0;wmctrl -l # this is only gonna work on X11
+: 1744806041:0;sudo pacmna -S wmctrl
+: 1744806054:0;yay -S wmctrl
+: 1744806182:0;xev -root -event substructure | grep -E '(Create|Map)Notify' # so is this
+: 1744806184:0;xev
+: 1744806189:0;sudo pacman -S xev
+: 1744806194:0;yay -S xev
+: 1744806258:0;xdotool windowmap 0x5200046
+: 1744806277:0;sudo pacman -S lxappearance
+: 1744806368:0;killall firefox\
+ps aux | grep firefox\
+GTK_THEME=Adwaita firefox
+: 1744806372:0;sudo pacman -S firefox
+: 1744806383:0;firefox
+: 1744806435:0;killall firefox\
+ps aux | grep firefox\
+GTK_THEME=Adwaita firefox
+: 1744806467:0;killall firefox\
+strace -f -tt -o /tmp/firefox.strace firefox\
+cat /tmp/firefox.strace | curl -F 'file=@-' 0x0.st # maybe check the filesize first, it's probably gonna be huge
+: 1744806525:0;ls
+: 1744806529:0;cd
+: 1744806529:0;ls
+: 1744806928:0;sudo pacman -Rcns firefox
+: 1744806944:0;yay -S palemoon
+: 1744807111:0;yay -S palemoon-BIN
+: 1744807114:0;ls
+: 1744807116:0;l
+: 1744807123:0;cd .config
+: 1744807123:0;ls
+: 1744807127:0;cd
+: 1744807130:0;cd .local
+: 1744807131:0;ls
+: 1744807133:0;cd share
+: 1744807133:0;l
+: 1744807134:0;ls
+: 1744807136:0;cd 
+: 1744807234:0;yay -Rcns palemoon-bin
+: 1744807250:0;sudo pacman -Rcns palemoon-bin
+: 1744807434:0;yay -S luakit-git
+: 1744807480:0;$ git clone https://github.com/luakit/luakit.git\
+$ cd luakit\
+$ make\
+$ sudo make install
+: 1744807508:0;sudo pacman -S luakit
+: 1744807543:0;sudo pacman -S lfs
+: 1744807613:0;sudo pacman -S git-lfs
+: 1744807617:0;lfs
+: 1744807633:0;sudo pacman -S lua
+: 1744807657:0;sudo pacman -S webkit2gtk
+: 1744807670:0;sudo pacman -S sqlite3
+: 1744807676:0;sudo pacman -S V
+: 1744807679:0;sudo pacman -S gstreamer
+: 1744807691:0;sudo pacman -S lua-socket
+: 1744808008:0;cd ..
+: 1744808010:0;rm -rf luakit
+: 1744808011:0;clear
+: 1744808011:0;ls
+: 1744808017:0;rm -rf border-test.png
+: 1744808018:0;clear
+: 1744808233:0;yay -S icecat-bin
+: 1744886639:0;startx
+: 1744970444:0;cd .config/dwm
+: 1744970446:0;v config.h
+: 1744971159:0;feh ~/Pictures/Wallpapers/venice2.png
+: 1744971167:0;feh --bg-scale ~/Pictures/Wallpapers/venice2.png
+: 1744971612:0;feh --bg-scale ~/Pictures/Wallpapers/crete.png
+: 1744971890:0;cd Downloads
+: 1744971890:0;ls
+: 1744971908:0;mv wallhaven-nmedr1_1920x1080.png ~/Pictures/Wallpapers/venice.png
+: 1744971912:0;ls
+: 1744971913:0;cd ..
+: 1744971920:0;feh --bg-scale ~/Pictures/Wallpapers/venice.png
+: 1744971942:0;ls
+: 1744971953:0;cd Pictures
+: 1744971953:0;ls
+: 1744971957:0;cd Wallpapers
+: 1744971963:0;feh --bg-scale ./
+: 1744971968:0;ls
+: 1744971972:0;feh --bg-scale ./crete.png
+: 1744971978:0;feh --bg-scale ./italy.png
+: 1744971983:0;feh --bg-scale ./venice2.png
+: 1744971993:0;feh --bg-scale ./venice.jpg
+: 1744972514:0;feh --bg-scale ./island.jpg
+: 1744972516:0;ls
+: 1744972522:0;feh --bg-scale ./island.png
+: 1744972571:0;v .xinitrc
+: 1744972582:0;startx
+: 1744975969:0;sudo pacman -S jdk22-openjdk
+: 1744975973:0;sudo pacman -S jdk22-openjdk-bin
+: 1744976091:0;cd /opt
+: 1744976092:0;ls
+: 1744976099:0;cd multimc
+: 1744976099:0;ls
+: 1744976100:0;cd ..
+: 1744976116:0;cd /opt\
+sudo mkdir zulu\
+cd zulu\
+\
+# Download the JDK 22 archive (Linux x64)\
+sudo curl -LO https://cdn.azul.com/zulu/bin/zulu22.30.101-ca-jdk22.0.1-linux_x64.tar.gz\
+\
+# Extract it\
+sudo tar -xvzf zulu22.30.101-ca-jdk22.0.1-linux_x64.tar.gz\
+\
+# Symlink for easier access\
+sudo ln -s zulu22.30.101-ca-jdk22.0.1-linux_x64 java22\
+
+: 1744976140:0;ls
+: 1744976141:0;rm -f zulu22.30.101-ca-jdk22.0.1-linux_x64.tar.gz\
+
+: 1744976148:0;sudo rm -f zulu22.30.101-ca-jdk22.0.1-linux_x64.tar.gz\
+
+: 1745058331:0;startx
+: 1745058339:0;sudo pacman -Syu
+: 1745058442:0;yay -Syu
+: 1745058563:0;feh --bg-scale ~/Pictures/Wallpapers/venice.png
+: 1745058583:0;feh --bg-scale ~/Pictures/Wallpapers/italy.png
+: 1745058672:0;feh --bg-scale ~/Pictures/Wallpapers/
+: 1745058682:0;ls ./Pictures/Wallpapers
+: 1745058683:0;ls
+: 1745058693:0;feh --bg-scale ~/Pictures/Wallpapers/island.png
+: 1745058817:0;yay -S firefox-nightly-bin
+: 1745058900:0;git clone https://aur.archlinux.org/firefox-nightly-bin.git
+: 1745058902:0;ls
+: 1745058906:0;cd firefox-nightly-bin
+: 1745058908:0;makepkg -si
+: 1745058932:0;cd
+: 1745058936:0;yay -S firefox-nightly
+: 1745059213:0;ls
+: 1745059225:0;
+: 1745059227:0;neofetch
+: 1745059238:0;ls
+: 1745059238:0;ls
+: 1745059273:0;sudo pacman -Rcns firefox-nightly
+: 1745059304:0;yay -S firefox-nightly
+: 1745061198:0;ls
+: 1745061201:0;cd ..\
+rm -rf firefox-nightly\
+
+: 1745061204:0;cd
+: 1745061204:0;ls
+: 1745061210:0;rm -rf firefox-nightly-bin
+: 1745061214:0;yay -Rns $(pactree -r firefox-nightly | tail -n +2)\
+
+: 1745061251:0;~/.cache/yay/firefox-nightly\
+
+: 1745061252:0;ls
+: 1745061252:0;cd ..
+: 1745061258:0;cd
+: 1745061259:0;rm -rf ~/.cache/yay/firefox-nightly\
+
+: 1745061314:0;sudo pacman -Rns autoconf2.13 rust clang llvm jack gtk3 libpulse alsa-lib unzip zip nodejs cbindgen nasm yasm python-setuptools python-zstandard python-pyparsing\
+
+: 1745061332:0;sudo pacman -Rns rust clang llvm gtk3 libpulse alsa-lib unzip zip nodejs cbindgen nasm yasm \
+
+: 1745061348:0;sudo pacman -Rns rust clang llvm libpulse unzip zip nodejs cbindgen nasm yasm \
+
+: 1745061355:0;sudo pacman -Rns rust clang llvm unzip zip nodejs cbindgen nasm yasm \
+
+: 1745061361:0;clear
+: 1745061367:0;sudo pacman -Rns $(pacman -Qdtq)\
+
+: 1745061376:0;ls
+: 1745061391:0;tar -xvf firefox-139.0a1.en-GB.linux-x86_64.tar.xz
+: 1745061402:0;ls
+: 1745061403:0;cd firefox
+: 1745061404:0;ls
+: 1745061405:0;./firefox
+: 1745061603:0;ls
+: 1745061611:0;cd Downloads
+: 1745061621:0;ls
+: 1745061630:0;tar -xvf user.js-135.0.tar.gz
+: 1745061631:0;ls
+: 1745061690:0;cd
+: 1745061692:0;cd 
+: 1745061695:0;cd .mozilla
+: 1745061696:0;ls
+: 1745061697:0;cd firefox
+: 1745061697:0;ls
+: 1745061702:0;cd zvezhfuu.default-nightly
+: 1745061703:0;ls
+: 1745061709:0;cd user.js-135.0
+: 1745061709:0;ls
+: 1745061713:0;./updater.sh
+: 1745061725:0;ls
+: 1745061747:0;./updater.bat
+: 1745061754:0;./updater.sh
+: 1745061759:0;l
+: 1745061760:0;ls
+: 1745061772:0;cd firefox
+: 1745061773:0;ls
+: 1745061774:0;./firefox-bin
+: 1745061872:0;v user-overrides.js
+: 1745061887:0;./updater.sh
+: 1745061891:0;ls
+: 1745061897:0;./updater.sh
+: 1745061901:0;cd ..
+: 1745061901:0;ls
+: 1745061920:0;./firefox-bin
+: 1745061939:0;cd user.js-135.0
+: 1745061991:0;l
+: 1745061995:0;cd ..
+: 1745061995:0;ls
+: 1745062001:0;./updater.sh
+: 1745062005:0;./firefox-bin
+: 1745062027:0;ls
+: 1745062040:0;v user-overrides.js
+: 1745062108:0;./firefox-bin
+: 1745062180:0;v user-overrides.js
+: 1745062210:0;./firefox-bin
+: 1745062221:0;v user-overrides.js
+: 1745062236:0;./firefox-bin
+: 1745062342:0;ls
+: 1745062346:0;cd ..
+: 1745062355:0;rm -rf zvezhfuu.default-nightly
+: 1745062358:0;./firefox-bin
+: 1745062944:0;ls
+: 1745062952:0;s
+: 1745062958:0;ls
+: 1745062967:0;rm -rf firefox-139.0a1.en-GB.linux-x86_64.tar.xz
+: 1745062968:0;ls
+: 1745063048:0;sudo mv firefox /opt/firefox-nightly\
+
+: 1745063057:0;xdg-settings set default-web-browser firefox-nightly.desktop\
+
+: 1745063093:0;cd /usr/local/bin
+: 1745063093:0;ls
+: 1745063101:0;cd dwmblocks
+: 1745063101:0;ls
+: 1745063112:0;cd
+: 1745063114:0;cd 
+: 1745063116:0;cd /opt
+: 1745063116:0;ls
+: 1745063119:0;cd multimc
+: 1745063120:0;ls
+: 1745063121:0;dc ..
+: 1745063125:0;cd ..
+: 1745063125:0;ls
+: 1745063130:0;cd firefox-nightly
+: 1745063130:0;ls
+: 1745063149:0;mv firefox /usr/local/bin/
+: 1745063157:0;sudo mv firefox /usr/local/bin/
+: 1745063168:0;cd /usr/local/bin
+: 1745063168:0;ls
+: 1745063171:0;./firefox
+: 1745063180:0;v firefox
+: 1745063188:0;v firefox-bin
+: 1745063193:0;ls
+: 1745063236:0;sudo ln -s /opt/firefox-nightly/firefox /usr/local/bin/firefox\
+
+: 1745063262:0;sudo mv firefox /opt/firefox-nightly/\
+
+: 1745063266:0;ls
+: 1745063269:0;sudo ln -s /opt/firefox-nightly/firefox /usr/local/bin/firefox\
+
+: 1745063682:0;ls
+: 1745063683:0;cd .cache
+: 1745063684:0;ls
+: 1745063692:0;rm -rf librewolf 
+: 1745063692:0;clear
+: 1745063693:0;ls
+: 1745063696:0;yay -Rcns librewolf-bin
+: 1745064443:0;cd /opt
+: 1745064443:0;ls
+: 1745064454:0;sudo rm -rf firefox-nightly
+: 1745064459:0;ls
+: 1745064460:0;clear
+: 1745064460:0;cd 
+: 1745064461:0;ls
+: 1745064464:0;cd Downloads
+: 1745064464:0;l
+: 1745064466:0;ls
+: 1745064473:0;clear
+: 1745064474:0;ls
+: 1745064624:0;yay -Syu
+: 1745064639:0;yay -Syu icecat-bin
+: 1745064713:0;librewolf
+: 1745064714:0;ls
+: 1745064715:0;l
+: 1745064717:0;rm -rf .librewolf
+: 1745064718:0;ls
+: 1745064719:0;l
+: 1745064727:0;cd .mozilla
+: 1745064727:0;ls
+: 1745064729:0;rm -rf firefox
+: 1745064729:0;clear
+: 1745065916:0;ls
+: 1745065926:0;cd  vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+: 1745065932:0;clear
+: 1745065933:0;ls
+: 1745146277:0;startx
+: 1745147275:0;sudo pacman -Syu
+: 1745151214:0;scrot
+: 1745618394:0;startx
+: 1745618435:0;xinput
+: 1745618441:0;xinput start
+: 1745618443:0;xinput 
+: 1745618454:0;xinput restart
+: 1745618460:0;xinput list
+: 1745618465:0;startx
+: 1745618470:0;reboot
+: 1745618472:0;sudo reboot
+: 1745618504:0;startx
+: 1745618937:0;xinput
+: 1745618964:0;xinput --list-props SynPS/2 Synaptics TouchPad
+: 1745618979:0;xinput --list-props 4
+: 1745618984:0;xinput --list-props 10
+: 1745619031:0;xinput --set-prop 10 329 0
+: 1745619046:0;sudo xinput --set-prop 10 329 0
+: 1745619066:0;xinput --list-props 10
+: 1745619082:0;sudo xinput --set-prop 10 328 0
+: 1745619093:0;xinput --set-prop 10 328 0\
+
+: 1745619102:0;v .xinitrc
+: 1745619117:0;clear
+: 1745659838:0;startx
+: 1745661888:0;sudo pacman -Syu && yay -Syu
+: 1745662253:0;clear
+: 1745696303:0;startx
+: 1745751482:0;sudo pacman -S jdk8-openjdk-bin
+: 1745751512:0;sudo pacman -S jdk8-openjdk
+: 1745753660:0;pkill multimc
+: 1745753665:0;pkill MultiMC
+: 1746351310:0;startx
+: 1746351358:0;cd Pictures
+: 1746351358:0;ls
+: 1746351362:0;cd Artwork
+: 1746351362:0;ls
+: 1746351369:0;cd ..
+: 1746351369:0;ls
+: 1746351373:0;cd Wallpapers
+: 1746351373:0;ls
+: 1746351394:0;./feh
+: 1746351397:0;feh ./
+: 1746352345:0;feh --bg-scale ~/Pictures/Wallpapers/italy.png
+: 1746352348:0;feh --bg-scale ~/Pictures/Wallpapers/italy2.png
+: 1746352355:0;feh --bg-scale ~/Pictures/Wallpapers/citylights.png
+: 1746352365:0;feh --bg-scale ~/Pictures/Wallpapers/lake.png
+: 1746352371:0;ls
+: 1746352374:0;cd Pictures
+: 1746352374:0;ls
+: 1746352377:0;cd Wallpapers
+: 1746352385:0;rm -rf italy.png citylights.png lake.png
+: 1746352386:0;clear
+: 1746352393:0;feh --bg-scale ~/Pictures/Wallpapers/italy.png
+: 1746352931:0;feh --bg-scale ~/Pictures/Wallpapers/mountain.png
+: 1746352935:0;ls
+: 1746352941:0;feh --bg-scale ~/Pictures/Wallpapers/lake.png
+: 1746352962:0;feh --bg-scale ~/Pictures/Wallpapers/sunset.png
+: 1746352971:0;feh --bg-scale ~/Pictures/Wallpapers/mountain.png
+: 1746352976:0;v .xinitrc
+: 1746352998:0;ls
+: 1746353005:0;cd .config
+: 1746353005:0;ls
+: 1746353013:0;mpv
+: 1746353015:0;ncmpcpp
