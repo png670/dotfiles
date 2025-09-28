@@ -1,0 +1,50 @@
+Xft.antialias:	1
+Xft.hinting:	1
+Xft.autohint:	0
+Xft.hintstyle:	hintslight
+Xft.rgba:	rgb
+Xft.lcdfilter:	lcddefault
+
+st.font:        Hack:pixelsize=13:antialias=true:autohint=true
+st.font2:       HackGen:pixelsize=13:antialias=true:autohint=true
+
+! window padding
+st.borderpx: 4
+
+!- 0.1 to 0.9 = transparency
+st.alpha: 0.94
+
+*background: #101419
+! *foreground: #b6beca
+
+! Black + DarkGrey
+*color0:  #1c252c
+*color8:  #384148
+
+! DarkRed + Red
+*color1:  #e05f65
+*color9:  #fc7b81
+
+! DarkGreen + Green
+*color2:  #78dba9
+*color10: #94f7c5
+
+! DarkYellow + Yellow
+*color3:  #f1cf8a
+*color11: #ffeba6
+
+! DarkBlue + Blue
+*color4:  #70a5eb
+*color12: #8cc1ff
+
+! DarkMagenta + Magenta
+*color5:  #c68aee
+*color13: #e2a6ff
+
+! DarkCyan + Cyan
+*color6:  #74bee9
+*color14: #90daff
+
+! LightGrey + White
+*color7:  #dee1e6
+*color15: #fafdff
