@@ -9,7 +9,7 @@ set period 1	# automatic refresh
 set shellopts '-eu'	# shell options
 set hiddenfiles ".*:*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml" # make these files hidden
 set cleaner '~/.config/lf/cleaner'	# cleaner for lfrun
-set previewer '~/.config/lf/scope'	# previews for lfrun
+set previewer '~/.config/lf/preview'	# previews for lfrun
 
 # commands + functions
 cmd moveto ${{

@@ -3,7 +3,7 @@
 /* Constants */
 #define TERMINAL "st"
 #define TERMCLASS "St"
-#define BROWSER "icecat"
+#define BROWSER "firefox"
 
 /* appearance */
 static unsigned int borderpx  = 2;        /* border pixel of windows */
@@ -16,14 +16,14 @@ static int swallowfloating    = 0;        /* 1 means swallow floating windows by
 static int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
-static char *fonts[]          = { "Terminus:size=12", "NotoColorEmoji:pixelsize=12:antialias=true:autohint=true"  };
-static const char dmenufont[]       = "Terminus:size=12";
-static char normbgcolor[]           = "#222222";
-static char normbordercolor[]       = "#444444";
-static char normfgcolor[]           = "#bbbbbb";
-static char selfgcolor[]            = "#eeeeee";
-static char selbordercolor[]        = "#770000";
-static char selbgcolor[]            = "#005577";
+static char *fonts[] = { "xos4 Terminus:size=12", "NotoColorEmoji:pixelsize=12:antialias=true:autohint=true" };
+static const char dmenufont[]       = "xos4 Terminus:size=12";
+static char normbgcolor[]           = "#101419";
+static char normbordercolor[]       = "#384148";
+static char normfgcolor[]           = "#b6beca";
+static char selfgcolor[]            = "#fafdff";
+static char selbordercolor[]        = "#344965";
+static char selbgcolor[]            = "#344965";
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
@@ -105,7 +105,8 @@ static const Key keys[] = {
  	{ MODKEY, 			XK_b,	   spawn, 	   {.v = (const char*[]){ BROWSER, NULL } } },
 	{ MODKEY|ShiftMask,		XK_w,      spawn,          {.v = (const char*[]){ TERMINAL, "-e", "nmtui", NULL } } },
  	{ MODKEY,			XK_n,	   spawn,	   {.v = (const char*[]){ TERMINAL, "-e", "lf", NULL } } },
- 	{ MODKEY|ShiftMask,		XK_n,	   spawn,	   {.v = (const char*[]){ TERMINAL, "-e", "ncmpcpp", NULL } } },
+ 	{ MODKEY|ShiftMask,		XK_n,	   spawn,	   {.v = (const char*[]){ TERMINAL, "-e", "rmpc", NULL } } },
+        { MODKEY,                       XK_m,      spawn,          {.v = (const char*[]){ "thunderbird", NULL } } },
 	{ MODKEY,                       XK_e,      togglebar,      {0} },
 
         { MODKEY,		        XK_BackSpace,   togglescratch, 	 {.ui = 0} },
@@ -139,11 +140,13 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,		XK_i,	setlayout,	 {.v = &layouts[9]} }, /* centeredfloatingmaster */
 
 
-        { 0, XF86XK_AudioMute,           spawn,           SHCMD("amixer set Master toggle; kill -44 $(pidof dwmblocks)") },
-        { 0, XF86XK_AudioRaiseVolume,    spawn,           SHCMD("amixer set Master 3%+; kill -44 $(pidof dwmblocks)") },
-        { 0, XF86XK_AudioLowerVolume,    spawn,           SHCMD("amixer set Master 3%-; kill -44 $(pidof dwmblocks)") },
-	{ 0, XF86XK_MonBrightnessUp,     spawn,           {.v = (const char*[]){ "xbacklight", "-inc", "15", NULL } } },
-	{ 0, XF86XK_MonBrightnessDown,   spawn,           {.v = (const char*[]){ "xbacklight", "-dec", "15", NULL } } },
+	{ 0, XF86XK_AudioMute,          spawn,           SHCMD("pactl set-sink-mute @DEFAULT_SINK@ toggle; kill -44 $(pidof dwmblocks)") },
+	{ 0, XF86XK_AudioRaiseVolume,   spawn,           SHCMD("pactl set-sink-volume @DEFAULT_SINK@ +3%; kill -44 $(pidof dwmblocks)") },
+	{ 0, XF86XK_AudioLowerVolume,   spawn,           SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -3%; kill -44 $(pidof dwmblocks)") },
+
+	{ 0, XF86XK_MonBrightnessUp,    spawn,           {.v = (const char*[]){ "xbacklight", "-inc", "15", NULL } } },
+	{ 0, XF86XK_MonBrightnessDown,  spawn,           {.v = (const char*[]){ "xbacklight", "-dec", "15", NULL } } },
+        { 0, XK_Print,                  spawn,           SHCMD ("maim -s | xclip -selection clipboard -t image/png") },
 
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },

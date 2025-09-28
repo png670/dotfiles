@@ -7,9 +7,10 @@ if ! filereadable(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/autolo
 	autocmd VimEnter * PlugInstall
 endif
 
-set notermguicolors
 
 call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"'))
+Plug 'decaycs/decay.nvim', { 'as': 'decay' }
+Plug 'norcalli/nvim-colorizer.lua'
 Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
 Plug 'junegunn/goyo.vim'
@@ -28,7 +29,10 @@ set clipboard+=unnamedplus
 set laststatus=0
 set noruler
 set noshowcmd
-colorscheme vim
+set termguicolors
+colorscheme decay-dark
+
+lua require'colorizer'.setup()
 
 " Some basics:
 	nnoremap c "_c

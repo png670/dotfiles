@@ -5,7 +5,7 @@
 unsetopt PROMPT_SP
 
 # Default programs:
-export BROWSER="icecat"
+export BROWSER="firefox-nightly"
 export TERMINAL="st"
 export EDITOR="nvim"
 export VISUAL="nvim"
@@ -23,9 +23,9 @@ export GOPATH="$XDG_DATA_HOME/go"
 export LESSHISTFILE="-"
 
 # Other program settings:
-export MOZ_ACCELERATED=1
-export QT_QPA_PLATFORMTHEME="gtk2"	# Have QT use gtk2 theme
-export QT_STYLE_OVERRIDE="kvantum"      # Have QT use kvantum style
+export MOZ_ACCELERATED=0
+export GTK_THEME=Adwaita-dark
+export GTK_ICON_THEME=Tela-circle-black
 export _JAVA_AWT_WM_NONREPARENTING=1	# Fix for Java applications in dwm
 export MUSICDIR="$HOME/Music"		# Music directory location
 export CM_SELECTIONS="clipboard"	# Make clipmenu copy to clipboard
